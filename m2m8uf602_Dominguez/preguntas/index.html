@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta lang="es">
+    <title>Mi primer formulario</title>
+    <link rel="stylesheet" href="estils.css">
+  </head>
+  <body>
+    <div id=titulo><h1>Formulario</h1>
+    </div>
+    <div id=contenedor>
+      <h2>1.Que transporte te gusta más?</h2>
+
+      <form>
+          <input type="radio" class="transporte" name="transporte" value="coche" placeholder="transporte">
+          <label for="coche">Coche</label><br>
+          <input type="radio" class="transporte" name="transporte" value="tren" placeholder="transporte">
+          <label for="tren">Tren</label><br>
+          <input type="radio" class="transporte" name="transporte" value="metro" placeholder="transporte">
+          <label for="metro">Metro</label><br>
+          <input type="radio" class="transporte" name="transporte" value="barco" placeholder="transporte">
+          <label for="barco">Barco</label><br>
+          <input type="radio" class="transporte" name="transporte" value="avión" placeholder="transporte">
+          <label for="avión">Avión</label>
+      </form>
+
+      <h2>2.Elige tu postre favorito.</h2>
+
+        <select class="postre" name="OS">
+            <option value="1">Crema catalana</option>
+            <option value="2">Arroz con leche</option>
+            <option value="3">Crepes con Nutella</option>
+            <option value="4">Natillas con canela</option>
+            <option value="5">Fruta</option>
+        </select>
+
+        <form action="final/index.html" method="get">
+          <button class="enviar" type="submit">Enviar</button>
+        </form>
+    </div>
+  </body>
+</html>

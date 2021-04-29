@@ -1,0 +1,21 @@
+body{
+  background-image: url(fondo.jpg);
+  background-color: cyan;
+  font-family: monospace;
+  font-style: oblique;
+}
+
+h1{
+  font-size: 62px;
+}
+
+#despedida{
+  background-color: #DACFFF;
+  width: 1000px;
+  height: 350px;
+  margin: auto;
+  margin-top: 200px;
+  box-shadow: 7px 13px 37px #000;
+  line-height: 65px;
+  text-align: center;
+}
