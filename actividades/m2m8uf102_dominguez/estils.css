@@ -1,0 +1,149 @@
+body {
+  margin: 0 auto;
+  background-color: cyan;
+}
+
+.coleta {
+  width: 75px;
+  height: 75px;
+  background-color: #291907;
+  position: absolute;
+  border-radius: 90px 90px 0 0;
+  left: 715px;
+  top: 50;
+}
+
+.coleta:before {
+  background-color: #291907;
+  position: absolute;
+  content: '';
+  left: 30px;
+  bottom: 1px;
+  width: 250px;
+  height: 100px;
+  -moz-border-radius: 0 50% / 0 100%;
+  -webkit-border-radius: 0 50% / 0 100%;
+  border-radius: 0 50% / 0 100%;
+  border: 3px solid #555;
+  transform: rotate(-15deg);
+}
+
+#pelo {
+  width: 500px;
+  height: 100px;
+  background: linear-gradient(to top, #291907, #542E09);
+  position: absolute;
+  border-radius: 90px 90px 0 0;
+  left: 500px;
+  top: 120;
+}
+
+#orejaizq {
+  width: 200px;
+  height: 200px;
+  background-color: #B1905E;
+  position: absolute;
+  clip-path: polygon(68% 80%, 68% 16%, 45% 5%, 30% 16%, 27% 39%, 35% 57%, 44% 75%, 55% 81%);
+  left: 365px;
+  top: 320px;
+}
+
+#orejader {
+  width: 170px;
+  height: 200px;
+  background-color: #B1905E;
+  position: absolute;
+  clip-path: polygon(22% 86%, 22% 25%, 42% 10%, 64% 14%, 73% 37%, 68% 67%, 48% 88%, 33% 91%);
+  left: 962px;
+  top: 310px;
+}
+
+#cara {
+  width: 500px;
+  height: 650px;
+  background-color: #F5CBA7;
+  position: absolute;
+  border-radius: 0 0 55% 55%;
+  left: 500px;
+  top: 200px;
+}
+
+#cejaizq {
+  width: 170px;
+  height: 150px;
+  background-color: #291907;
+  position: absolute;
+  clip-path: polygon(4% 59%, 39% 39%, 85% 38%, 84% 52%, 42% 52%);
+  left: 50px;
+  top: 45px;
+}
+
+#cejader {
+  width: 180px;
+  height: 120px;
+  background-color: #291907;
+  position: absolute;
+  clip-path: polygon(92% 64%, 57% 35%, 14% 34%, 14% 52%, 54% 52%);
+  right: 45px;
+  top: 59px;
+}
+
+#ojoder {
+  right: 75px;
+  top: 100px;
+}
+
+#ojoizq {
+  left: 75px;
+  top: 100px;
+}
+
+#nariz {
+  width: 200px;
+  height: 200px;
+  background-color: #B1905E;
+  position: absolute;
+  clip-path: polygon(24% 61%, 38% 75%, 59% 75%, 69% 61%, 53% 65%, 41% 65%);
+  left: 160px;
+  top: 225px;
+}
+
+#boca {
+  width: 225px;
+  height: 225px;
+  background-color: #B99164;
+  position: absolute;
+  clip-path: polygon(11% 61%, 43% 48%, 65% 48%, 94% 60%, 68% 78%, 39% 78%);
+  left: 135px;
+  top: 350px;
+}
+
+.ojos {
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  position: absolute;
+  clip-path: ellipse(50% 20% at 50% 48%);
+}
+
+.ojos:before {
+  width: 50px;
+  height: 50px;
+  background-color: #113311;
+  position: absolute;
+  border-radius: 100%;
+  left: 35px;
+  top: 32px;
+  content: '';
+}
+
+.ojos:after {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  position: absolute;
+  border-radius: 100%;
+  left: 47px;
+  top: 44px;
+  content: '';
+}
