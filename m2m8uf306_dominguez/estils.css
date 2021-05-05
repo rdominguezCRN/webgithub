@@ -1,0 +1,76 @@
+body {
+  background-color: silver;
+}
+h1 {
+  font-family: cursive;
+}
+p {
+  font-size: 25px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  margin: 10px;
+  font-size: 25px;
+  font-style: monospace;
+  text-align: center;
+}
+
+
+
+#div1
+{
+    background-color: green;
+    margin-top: 45px;
+}
+
+#div2
+{
+    background-color: magenta;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+#div3
+{
+    background-color: yellow;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+#div4
+{
+    background-color: cyan;
+}
+#div5
+{
+    background-color: pink;
+}
+#div6
+{
+    background-color: white;
+}
+#div7
+{
+    background-color: orange;
+}
+#div8
+{
+    background-color: red;
+}
+
+
+
+
+.class 1
+.class 2
+.class 3
+.class 4
+
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  margin: 10px;
+}
