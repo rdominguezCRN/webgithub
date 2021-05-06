@@ -394,9 +394,9 @@ body {
 
 .base {
   width: 150%;
-  height: 400px;
+  height: 500px;
   background-color: green;
   position: absolute;
   left: 0;
-  top: 365px;
+  top: 500px;
 }
